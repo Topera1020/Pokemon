@@ -3,8 +3,8 @@ class Pokemon:
         self.__altura = float(altura)
         self.__velocidade = float(velocidade)
         self.__peso = float(peso)
-        self.__ataque = float(ataque)
-        self.__defesa = float(defesa)
+        self.__ataque = int(ataque)
+        self.__defesa = int(defesa)
         self.__id = int(id)
         self.__nome = str(nome)
 
