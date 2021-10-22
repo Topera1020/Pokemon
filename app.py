@@ -2,7 +2,7 @@ from src.classes.pokemon import Pokemon
 from src.dao.pokemon_dao import PokemonDao
 from src.bd.bc_connection import bd 
 
-pokemon1 = Pokemon("fogo vopador", "Charizard", 1.7, 90.5, 50, 50, 60 )
+pokemon1 = Pokemon("fogo voador", "Charizard", 1.7, 90.5, 50, 50, 60 )
 nova_dao = PokemonDao(pokemon1)
 bd.insert_in_BD(nova_dao._pokemon_json)
 
